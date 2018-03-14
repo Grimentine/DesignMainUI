@@ -21,7 +21,7 @@ public class GameActivity extends AppCompatActivity {
     ImageView questionImageView; //รูปคำถาม
     ImageButton volumnImageButton;
     MediaPlayer mediaPlayer; //เล่นไฟล์เสียง
-    int questionCount= 1; //เก็บข้อคำถาม
+    int questionCount= 10; //เก็บข้อคำถาม
     ArrayList<Integer> qID = new ArrayList<Integer>(); //qID แรนดอมโจทย์
     String answer; //คำตอบ
     int score = 0; //รวมคะแนน
